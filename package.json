@@ -1,0 +1,16 @@
+{
+  "name": "atomic-v2",
+  "version": "2.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/memework/atomic-v2",
+  "author": "heatingdevice",
+  "license": "MIT",
+  "dependencies": {
+    "bufferutil": "^3.0.2",
+    "discord.js": "hydrabolt/discord.js",
+    "electron": "^1.7.5",
+    "electron-debug": "^1.4.0",
+    "erlpack": "discordapp/erlpack",
+    "uws": "^8.14.1"
+  }
+}
