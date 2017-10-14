@@ -9,7 +9,12 @@ var Discord = require("discord.js")
 // }
 
 
-var bot = new Discord.Client()
+var bot = new Discord.Client({
+  http: {
+    host: window.localStorage.getItem("url-api") || "https://discordapp.com/api",
+    cdn: window.localStorage.getItem("url-cdn") || "https://cdn.discordapp.com"
+  }
+})
 var token = window.localStorage.getItem("token")
 var windowManager
 
