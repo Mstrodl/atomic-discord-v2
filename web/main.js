@@ -47,6 +47,7 @@ class WindowManager {
     }).forEach(guild => this.addGuild(guild.guild))
   }
   addGuild(guild) {
+    if(!guild) return
     var guildElement = document.createElement("div")
     var guildContainer = document.createElement("div")
     guildContainer.classList = "guild-outer"
